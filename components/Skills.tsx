@@ -65,7 +65,7 @@ const skills = [
   },
 ];
 
-const Experience = () => {
+const Skills = () => {
   return (
     <div className="py-20 w-full mt-[8rem]" id="Topskills">
       <h1 className="text-4xl font-bold text-center mb-12">
@@ -117,4 +117,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
