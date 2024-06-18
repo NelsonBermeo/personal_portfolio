@@ -2,6 +2,7 @@ import Image from "next/image";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Clients from "@/components/Clients";
+import AboutMe from "@/components/AboutMe";
 import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero />
+        <AboutMe />
         <Grid />
         <RecentProjects />
         <Clients />
