@@ -14,6 +14,7 @@ import GSAPlogo from "../public/gsapicon.png";
 import NEXTlogo from "../public/NEXTICONSK.png";
 import Reactlogo from "../public/re.svg";
 import Bootstraplogo from "../public/boos.png";
+
 import Tailwindlogo from "../public/tail.svg";
 import MaterialUIlogo from "../public/material-ui-logo-5BDCB9BA8F-seeklogo.com-removebg-preview.png";
 import VSCodeLogo from "../public/visual-studio-code-logo-449D71944F-seeklogo.com-removebg-preview.png";
@@ -66,6 +67,7 @@ const skills = [
 ];
 
 const Skills = () => {
+
   return (
     <div className="py-20 w-full mt-[8rem]" id="Topskills">
       <h1 className="text-4xl font-bold text-center mb-12">

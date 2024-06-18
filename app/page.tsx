@@ -3,6 +3,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Clients from "@/components/Clients";
 import AboutMe from "@/components/AboutMe";
+import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
@@ -22,6 +23,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Clients /> 
+        <Experience />
         <Skills />
         <Footer />
       </div>

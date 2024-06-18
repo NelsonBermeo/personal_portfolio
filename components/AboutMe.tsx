@@ -1,5 +1,6 @@
 "use client";
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
+
 import React, { useEffect } from "react";
 import { FaLocationArrow } from "react-icons/fa";
 import { Spotlight } from "./ui/Spotlight";
@@ -13,6 +14,7 @@ import { FaLink } from "react-icons/fa";
 import lapt from "../public/aaa.jpg";
 
 const AboutMe = () => {
+
   useEffect(() => {
     var typed = new Typed(".multiple-text", {
       strings: [

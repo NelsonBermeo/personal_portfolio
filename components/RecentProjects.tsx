@@ -4,7 +4,9 @@ import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa6';
 
 
+
 const RecentProjects = () => {
+
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">

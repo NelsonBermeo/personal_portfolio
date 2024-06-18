@@ -7,6 +7,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* styles/custom.css */
+/* .vertical-timeline-element-content.is-hidden {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+span.vertical-timeline-element-icon {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  } */
+
+  .section-with-margin {
+    margin-top: 12.5rem; /* Adjust this value as needed */
+  }
+
 body {
     background: #1f242d;
     color: #fff;
