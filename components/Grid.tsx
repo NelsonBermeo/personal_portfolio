@@ -23,7 +23,7 @@ const Grid = () => {
                 />
             ))}
         </BentoGrid> */}
-        <BentoGrid className="w-full py-20">
+        <BentoGrid className="w-full pb-10">
             {gridItems.map((item, i) => (
             <BentoGridItem
                 id={item.id}

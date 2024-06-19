@@ -38,10 +38,15 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
+        blu: {
+          DEFAULT: "#0b102e",
+          100: "#BEC1DD",
+          200: "#C1C2D3",
+        },
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: "#65aef6",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

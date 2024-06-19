@@ -11,23 +11,24 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 import { FaLink } from "react-icons/fa";
-import lapt from "../public/aaa.jpg";
+import face from "../public/NeneFace.png";
 
 const AboutMe = () => {
 
   useEffect(() => {
     var typed = new Typed(".multiple-text", {
       strings: [
-        "Frontend Developer",
-        "UI/UX Designer",
-        "Software Engineer",
-        "Frontend Developer",
-        "Web Developer",
+        "Machine Learning",
+        "Quantum Computing",
+        "Software Engineering",
+        "Deep Learning",
+        "Mathematics",
       ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
       loop: true,
+      showCursor: false,
     });
 
     // Cleanup function to destroy Typed instance when component unmounts
@@ -37,7 +38,8 @@ const AboutMe = () => {
   }, []); // Empty dependency array ensures this effect runs only once on component mount
 
   return (
-    <div className="pb-[5rem]  pt-[9rem] containerlarh" id="about">
+    <div className="mb-[-8rem] containerlarh" id="about">
+      
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -56,27 +58,31 @@ const AboutMe = () => {
         />
       </div>
 
-      <section className="home">
+      <section className="home rounded-full">
         
         <div className="home-content">
-          <h3>Hello, It's Me</h3>
-          <h1>Rohit Rai</h1>
+          <h3>My name is</h3>
+          <h1>Nelson Bermeo</h1>
           <h3>
-            And I'm a <span className="multiple-text"></span>
+            I Love{" "}
+            <span
+              className="multiple-text"
+              style={{ color: "#65aef6" }} // Change color here
+            ></span>
           </h3>
+          {/* <h3>
+            I Love <span className="multiple-text"></span>
+          </h3> */}
           <p>
-            I am Frontend Developer experience in Creating Professional, Modern
-            Websites. Building Full stack Web Application with User
-            Authentication and Payment Gateway and All Features that You can
-            Imagine!
+          I am a student at Stevens Institute of Technology, located in the metropolitan area, studying Computer Science. I am dedicated to acquiring new skills both inside and outside the classroom. My goal is to one day contribute to computational projects that make a meaningful impact, whether by curing patients, reducing environmental damage, or addressing other significant challenges. The applications of machine learning are limitless, and I am eager to explore and innovate within this exciting field. 
           </p>
           
 
-          <div className="social-media">
+          {/* <div className="social-media">
             <a
               href="https://www.linkedin.com/in/rohitrai0/"
               target="blank"
-              // style={{ "--i": 7 }}
+              
               rel="noopener noreferrer"
             >
               <FaLinkedin />
@@ -84,7 +90,7 @@ const AboutMe = () => {
             <a
               href="https://github.com/Rohitrai12/"
               target="blank"
-              // style={{ "--i": 8 }}
+              
               rel="noopener noreferrer"
             >
               <FaGithub />
@@ -92,7 +98,7 @@ const AboutMe = () => {
             <a
               href="https://x.com/Rohitrai_09"
               target="blank"
-              // style={{ "--i": 9 }}
+             
               rel="noopener noreferrer"
             >
               <FaSquareXTwitter />
@@ -100,7 +106,7 @@ const AboutMe = () => {
             <a
               href="https://linktr.ee/rohitrai2"
               target="blank"
-              // style={{ "--i": 10 }}
+              
               rel="noopener noreferrer"
             >
               <FaLink />
@@ -113,11 +119,11 @@ const AboutMe = () => {
             rel="noopener noreferrer"
           >
             Download Resume
-          </a>
+          </a> */}
         </div>
 
         <div className="home-image">
-          <Image src={lapt} alt="Hero Image" />
+          <Image src={face} alt="Hero Image" />
         </div>
       </section>
     </div>

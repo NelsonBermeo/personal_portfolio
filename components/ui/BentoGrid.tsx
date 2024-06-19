@@ -58,7 +58,7 @@ export const BentoGridItem = ({
   }, []);
 
   const handleCopy = () => {
-    const text = "nelsonberm.2005@gmail.com";
+    const text = "https://dev.to/nelson_bermeo";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -70,7 +70,7 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: "rgb(4,7,29)",
+        background: "#020516",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
@@ -108,7 +108,7 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-100 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
 
@@ -121,7 +121,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['React.js', 'Next.js', 'TypeScript'].map((item) => (
+                {['muffin', 'Python', 'C++'].map((item) => (
                   <span key={item} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
@@ -133,7 +133,7 @@ export const BentoGridItem = ({
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#10132E]" />
 
-                {['View.js', 'AWS', 'Mongo.db'].map((item) => (
+                {['TensorFlow', 'Pandas', 'muffin'].map((item) => (
                   <span key={item} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
@@ -156,7 +156,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Link is Copied!" : "Copy my blog link"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}

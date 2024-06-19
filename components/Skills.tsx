@@ -14,54 +14,62 @@ import GSAPlogo from "../public/gsapicon.png";
 import NEXTlogo from "../public/NEXTICONSK.png";
 import Reactlogo from "../public/re.svg";
 import Bootstraplogo from "../public/boos.png";
+import cppImage from "../public/c-.png";
+import javaImage from "../public/java.png";
+import cppnewImage from "../public/cppnewimage.svg.png";
+import qiskit from "../public/Qiskit.svg.png";
+import tensorflow from "../public/TensorFlow.svg.png";
+import PyTorch from "../public/pyTorch.svg.png";
+import sb from "../public/sb.png";
+import numpy from "../public/numpy.png";
+import pandas from "../public/pandas.png";
 
 import Tailwindlogo from "../public/tail.svg";
 import MaterialUIlogo from "../public/material-ui-logo-5BDCB9BA8F-seeklogo.com-removebg-preview.png";
 import VSCodeLogo from "../public/visual-studio-code-logo-449D71944F-seeklogo.com-removebg-preview.png";
 import GitHubLogo from "../public/github.png";
 import GitLogo from "../public/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail-removebg-preview.png";
-import ChatGPTLogo from "../public/chatgpt.jpg";
 import Figmalogo from "../public/figma.png"; // Reusing ChatGPTLogo for Figma
 
 const skills = [
   {
     category: "Programming Languages",
     items: [
-      { logo: HTMLlogo, name: "HTML" },
-      { logo: CSSlogo, name: "CSS" },
-      { logo: JSlogo, name: "JavaScript" },
+      // { logo: HTMLlogo, name: "HTML" },
+      { logo: cppImage, name: "C++" },
+      { logo: javaImage, name: "Java" },
       { logo: Pythonlogo, name: "Python" },
-      { logo: TypeScriptlogo, name: "TypeScript" },
+      // { logo: TypeScriptlogo, name: "TypeScript" },
     ],
   },
   {
     category: "Libraries",
     items: [
-      { logo: SHADCNlogo, name: "SHADCN/UI" },
-      { logo: JQERYlogo, name: "JQuery" },
-      { logo: SASSlogo, name: "SASS" },
-      { logo: Framerlogo, name: "Framer Motion" },
-      { logo: GSAPlogo, name: "GSAP" },
+      { logo: sb, name: "SeaBorn" },
+      { logo: numpy, name: "Numpy" },
+      { logo: pandas, name: "Pandas" },
+      // { logo: Framerlogo, name: "Framer Motion" },
+      // { logo: GSAPlogo, name: "GSAP" },
     ],
   },
   {
     category: "Frameworks",
     items: [
-      { logo: NEXTlogo, name: "NEXT.js" },
-      { logo: Reactlogo, name: "React" },
-      { logo: Bootstraplogo, name: "Bootstrap" },
-      { logo: Tailwindlogo, name: "Tailwind CSS" },
-      { logo: MaterialUIlogo, name: "Material-UI" },
+      { logo: qiskit, name: "Qiskit" },
+      { logo: tensorflow, name: "TensorFlow" },
+      { logo: PyTorch, name: "Pytorch" },
+      // { logo: Tailwindlogo, name: "Tailwind CSS" },
+      // { logo: MaterialUIlogo, name: "Material-UI" },
     ],
   },
   {
     category: "Technical Tools",
     items: [
-      { logo: Figmalogo, name: "Figma" },
+      // { logo: Figmalogo, name: "Figma" },
       { logo: VSCodeLogo, name: "VS Code" },
       { logo: GitHubLogo, name: "GitHub" },
       { logo: GitLogo, name: "Git" },
-      { logo: ChatGPTLogo, name: "ChatGPT" },
+      // { logo: GitLogo, name: "Git" },
     ],
   },
 ];
@@ -69,19 +77,19 @@ const skills = [
 const Skills = () => {
 
   return (
-    <div className="py-20 w-full mt-[8rem]" id="Topskills">
-      <h1 className="text-4xl font-bold text-center mb-12">
-        My <span className="text-purple">Top Skills</span>
+    <div className="w-full" id="Topskills">
+      <h1 className="heading mt-10 mb-20">
+        <span className="text-purple">Professional </span>
+        Skills
       </h1>
-      <div className="w-full grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 px-4">
+      <div className="w-full pt-15 grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 px-4">
         {skills.map((skillCategory, index) => (
           <Button
             key={index}
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             style={{
-              background:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              backgroundColor: "rgb(12,15,37)",
               borderRadius: `calc(1.75rem * 0.96)`,
             }}
             className="text-black dark:text-white border-neutral-200 dark:border-slate-800 shadow-lg transform transition-transform hover:scale-105"

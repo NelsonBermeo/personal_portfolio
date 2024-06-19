@@ -8,17 +8,17 @@ import { FaLocationArrow } from 'react-icons/fa6';
 const RecentProjects = () => {
 
   return (
-    <div className="py-20" id="projects">
-      <h1 className="heading">
+    <div id="projects">
+      <h1 className="pt-20 heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center gap-x-24">
         {projects.map(({ id, title, des, img, iconLists, link,}) => (
             <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                 <PinContainer title={link} href={link}>
                     <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                        <div className="relative w-full h-full overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>  
+                        <div className="relative w-full h-full overflow-hidden bg-blu lg:rounded-3xl" style={{ backgroundColor: "#0b102e" }}>  
                             <img src="/bg.png" alt="bg-img" />
                         </div>
                         <img 
@@ -45,7 +45,7 @@ const RecentProjects = () => {
                             ))}
                         </div>
                         <div className="flex justify-center items-center">
-                            <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
+                            <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Blog Post</p>
                             <FaLocationArrow className="ms-3" color="#CBAC=9" />
                         </div>
                     </div>

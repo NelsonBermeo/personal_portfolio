@@ -8,21 +8,23 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I love my family and owe it all to them ",
       description: "",
+      
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/NeneFam.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      title: "",
+      description: "\"We can change the world and make it a better place. It is in our hands to make a difference\" - Nelson Mandela",
+     
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2 text-sm",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "!text-black justify-start",
       img: "",
       spareImg: "",
     },
@@ -30,6 +32,7 @@ export const navItems = [
       id: 3,
       title: "My tech stack",
       description: "I constantly try to improve",
+     
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,29 +41,32 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "",
+      description: "\"Be the person who embraces the ugly, the miserable. Be the person who embraces the hard work and the grind. Don't be afraid of being hurt, and don't be afraid of sacrificing some blood.\" - David Goggins",
+      
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "text-center justify-start",
       img: "/grid.svg",
-      spareImg: "/b4.svg",
+      spareImg: "",
     },
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently completing Machine Learning Math Specialization",
       description: "The Inside Scoop",
+      
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "",
+      spareImg: "/gridmlImage.jpg",
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Learn more about my hobbies, projects and goals at my blog on dev.to",
       description: "",
+      
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -72,68 +78,73 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "In Progress - Nueral Network from Scratch",
+      des: "In Progress",
+      img: "/constructionImage.jpg",
+      iconLists: ["", "", "", "", ""],
+      link: "",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "In Progress - Google Maps Clone",
+      des: "In Progress",
+      img: "/constructionImage.jpg",
+      iconLists: ["", "", "", "", ""],
+      link: "",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "In Progress - Ai Companion (Siri Clone)",
+      des: "In Progress",
+      img: "/constructionImage.jpg",
+      iconLists: ["", "", "", "", ""],
+      link: "",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "In Progress - ChatGPT Clone",
+      des: "In Progress",
+      img: "/constructionImage.jpg",
+      iconLists: ["", "", "", "", ""],
+      link: "",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      name: "Unknown",
+      title: "Unknown",
+      imgURL: "/blankPhoto.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      name: "Unknown",
+      title: "Unknown",
+      imgURL: "/blankPhoto.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      name: "Unknown",
+      title: "Unknown",
+      imgURL: "/blankPhoto.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      name: "Unknown",
+      title: "Unknown",
+      imgURL: "/blankPhoto.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      name: "Unknown",
+      title: "Unknown",
+      imgURL: "/blankPhoto.jpg"
     },
   ];
   

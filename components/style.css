@@ -20,8 +20,9 @@ span.vertical-timeline-element-icon {
     opacity: 1 !important;
   } */
 
+
   .section-with-margin {
-    margin-top: 12.5rem; /* Adjust this value as needed */
+    margin-top: 10rem; /* Adjust this value as needed */
   }
 
 body {
@@ -41,6 +42,8 @@ body {
     align-items: center;
     z-index: 100;
 }
+
+  
 
 .logo {
     font-size: 25px;
