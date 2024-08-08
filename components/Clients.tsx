@@ -10,7 +10,7 @@ const Clients = () => {
 
   return (
     <section id="testimonials" className="">
-      <h1 className="heading">
+      <h1 className="heading pt-20">
         Endorsements from
         <span className="text-purple"> Professionals</span>
       </h1>

@@ -38,7 +38,7 @@ const AboutMe = () => {
   }, []); // Empty dependency array ensures this effect runs only once on component mount
 
   return (
-    <div className="mb-[-8rem] containerlarh" id="about">
+    <div className="containerlarh" id="about">
       
       <div>
         <Spotlight
@@ -74,7 +74,7 @@ const AboutMe = () => {
             I Love <span className="multiple-text"></span>
           </h3> */}
           <p>
-          I am a student at Stevens Institute of Technology, located in the metropolitan area, studying Computer Science. I am dedicated to acquiring new skills both inside and outside the classroom. My goal is to one day contribute to computational projects that make a meaningful impact, whether by curing patients, reducing environmental damage, or addressing other significant challenges. The applications of machine learning are limitless, and I am eager to explore and innovate within this exciting field. 
+          I am a student at Stevens Institute of Technology, located in the NYC metropolitan area, studying Computer Science. I am dedicated to acquiring new skills both inside and outside the classroom. My goal is to one day contribute to computational projects that make a meaningful impact, whether by curing patients, reducing environmental damage, or addressing other significant challenges. The applications of artificial intelligence are limitless, and I am eager to explore and innovate within this exciting field. Also I love to weightlift, learn, love my family, and getting to know others.
           </p>
           
 

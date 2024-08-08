@@ -78,35 +78,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "In Progress - Nueral Network from Scratch",
+      title: "In Progress",
       des: "In Progress",
       img: "/constructionImage.jpg",
       iconLists: ["", "", "", "", ""],
-      link: "",
+      link: "#",
     },
     {
       id: 2,
-      title: "In Progress - Google Maps Clone",
+      title: "In Progress",
       des: "In Progress",
       img: "/constructionImage.jpg",
       iconLists: ["", "", "", "", ""],
-      link: "",
+      link: "#",
     },
     {
       id: 3,
-      title: "In Progress - Ai Companion (Siri Clone)",
+      title: "In Progress",
       des: "In Progress",
       img: "/constructionImage.jpg",
       iconLists: ["", "", "", "", ""],
-      link: "",
+      link: "#",
     },
     {
       id: 4,
-      title: "In Progress - ChatGPT Clone",
+      title: "In Progress",
       des: "In Progress",
       img: "/constructionImage.jpg",
       iconLists: ["", "", "", "", ""],
-      link: "",
+      link: "#",
     },
   ];
   
@@ -184,31 +184,35 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Freshman: Fall Semester",
+      desc: "CS 115 - Introduction to Computer Science \n PEP 111 - Mechanics \n MA 120 & 121: Introduction to Calculus & Differential Calculus \n CS 101 - Research and Entrepreneurship in Computing \n CAL 105 - Knowledge, Nature, Culture \n Credit Amount: 15",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/fresh1.jpg",
+      link: "https://nelsonbermeo.blogspot.com/2024/08/freshman-fall-semester.html",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Freshman: Spring Semester",
+      desc: "CS 284: Data Structures \n CS 135 - Discrete Structures \n MA 125 & 126: Vectors and Matrices & Multivariable Calculus 1 \n BIO 182 - Biology and Biotechnology Laboratory \n BIO 181 - Biology and Biotechnology \n HSS 371: Computers & Society \n Winter Break: MA 121: Integral Calculus \n Credit Amount: 21",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/fresh2.jpg",
+      link: "https://nelsonbermeo.blogspot.com/2024/08/freshman-spring-semester.html",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Sophmore: Fall Semester",
+      desc: "CPE 440: Introduction to AI Engineering \n CS 382: Computer Architecture and Organization \n CS 385: Algorithms \n MA 232: Linear Algebra \n MA 222: Probability & Statistics \n HSSC 324: Comparative Ethnic Culture \n Credit Amount: 20",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/soph1.jpg",
+      link: "https://nelsonbermeo.blogspot.com/2024/08/sophmore-fall-semester.html",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Sophmore: Spring Semester",
+      desc: "To Be Seen...",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/blankPhoto.jpg",
+      link: "https://nelsonbermeo.blogspot.com/2024/08/sophmore-spring-semester.html",
     },
   ];
   
@@ -216,13 +220,13 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
+      link: "https://github.com/NelsonBermeo",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/nelson-bermeo-9118b11ba/",
     },
   ];
+
+  

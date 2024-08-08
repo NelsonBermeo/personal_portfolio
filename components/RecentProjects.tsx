@@ -9,9 +9,9 @@ const RecentProjects = () => {
 
   return (
     <div id="projects">
-      <h1 className="pt-20 heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+      <h1 className="lg:pb-10 pt-40 heading">
+        Highlighted{" "}
+        <span className="text-purple"> Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center gap-x-24">
         {projects.map(({ id, title, des, img, iconLists, link,}) => (

@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
+import { FollowerPointerCard } from "./Pointer";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -25,6 +26,8 @@ export const HoverEffect = ({
       )}
     >
       {items.map((item, idx) => (
+        <FollowerPointerCard 
+        title="Read Blog Post">
         <Link
           href={item.link}
           key={item.link}
@@ -55,6 +58,7 @@ export const HoverEffect = ({
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>
+        </FollowerPointerCard>
       ))}
     </div>
   );
@@ -68,6 +72,7 @@ export const Card = ({
   children: React.ReactNode;
 }) => {
   return (
+    
     <div
       className={cn(
         "rounded-2xl h-full w-full p-4 overflow-hidden bg-blu border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
@@ -92,7 +97,7 @@ export const CardImage = ({
     <img
       src={src}
       alt={alt}
-      className="object-cover mx-auto w-40 h-40 rounded-t-2xl"
+      className="object-cover mx-auto w-50 h-70 rounded-t-2xl"
     />
   );
 };

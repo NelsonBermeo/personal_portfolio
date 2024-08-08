@@ -176,10 +176,10 @@ const Courses = () => {
   return (
     
     <div className="max-w-5xl mx-auto px-8">
-        <h1 className="heading mb-10 mt-20">
+        <h1 className="heading mb-10 pt-20 mt-20">
         Building
         <span className="text-purple"> Expertise </span>
-        One Course at a Time
+        One Book at a Time
       </h1>
       <HoverEffect items={projects} />
     </div>
@@ -187,61 +187,61 @@ const Courses = () => {
 }
 export const projects = [
   {
-    title: "Stevens - Relevent Courses",
-    description: "2023-2024 Year: Calculus, Mechanics, Itroduction to Computer Scinece, Biology, Data Structures, Discrete Math -- Fall 2024: Computer Architechure and Organization, Algorithms, Linear Algebra, Probability and Statistics.",
-    link: "https://stevens.smartcatalogiq.com/en/2023-2024/academic-catalog/department-of-computer-science/undergraduate-programs/bachelor-of-science-in-computer-science/",
-    image: "/Stevens.jpg"
+    title: "Invent Your Own Computer Games with Python",
+    description: "In Progress...",
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-invent-your-own-computer.html",
+    image: "/pythongames.png"
   },
   {
-    title: "DeepLearning.Ai - Machine Learning Specialization",
+    title: "Django for Beginners",
     description:
       "In Progress...",
-    link: "",
-    image: '/deeplearningai.jpg'
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-django-for-beginners-by.html",
+    image: '/djangobook.png'
   },{
-    title: "DeepLearning.Ai - Deep Learning Specialization",
+    title: "Python for Data Analysis",
     description:
       "In Progress...",
-    link: "",
-    image: '/deeplearningai.jpg'
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-python-for-data-analysis-by.html",
+    image: '/dataanalysis.png'
   },{
-    title: "Imperial College London - Math for Machine Learning Specialization",
+    title: "Javascript Crash Course",
     description:
       "In Progress...",
-    link: "",
-    image: "/London.svg.png"
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-javascript-crash-course-by.html",
+    image: "/javascriptbook.png"
   },{
-    title: "IBM - DevOps and Software Engineering Professional Certificate",
+    title: "Mission Python: Code a Space Adventure Game!",
     description:
       "In Progress...",
-    link: "",
-    image: "/IBM.svg"
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-mission-python-code-space.html",
+    image: "pythonmission.png"
   },{
-    title: "IBM - Introduction to Software Engineering",
+    title: "Dive Into Algorithms",
     description:
       "In Progress...",
-    link: "",
-    image: "/IBM.svg"
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-dive-into-algorithms-by.html",
+    image: "/algorithms.png"
   },{
-    title: "Kumaresan Ramanathan - QC101 Quantum Computing & Intro to Quantum Machine Learning",
+    title: "Python Crash Course",
     description:
       "In Progress...",
-    link: "",
-    image: "/QCKum.png"
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-python-crash-course-by-eric.html",
+    image: "/pythoncrash.png"
   },
   {
-    title: "Dr. Börge Göbel - Quantum Physics from Beginner to Expert",
+    title: "Cracking the Coding Interview",
     description:
       "In Progress...",
-    link: "",
-    image: "/QCDr.png"
+    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-cracking-coding-interview.html",
+    image: "/cracking.png"
   },
   {
-    title: "Kunal Kushwaha - Java + DSA + Interview Preparation Course",
+    title: "And Many More To Come...",
     description:
-      "In Progress... I have been reviewing DSA this summer for interviews. This free course by Kunal Kushwaha is great and covers many topics in great detail. If your a freshman at Stevens I reccomend watching his videos on a topic before you cover it in Data Structures class.",
-    link: "https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
-    image: "/Kunal.png"
+      "In Progress...",
+    link: "#",
+    image: "/morebooks.jpg"
   },
   
 ];

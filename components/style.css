@@ -20,7 +20,12 @@ span.vertical-timeline-element-icon {
     opacity: 1 !important;
   } */
 
-
+  .header-image {
+    width: 100%; /* Adjust as needed */
+    height: 180px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 0.5rem; /* Adjust if you want rounded corners */
+  }
   .section-with-margin {
     margin-top: 10rem; /* Adjust this value as needed */
   }

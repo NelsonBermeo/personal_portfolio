@@ -35,7 +35,7 @@ const config = {
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
+          100: '#0b102e',
           200: "#C1C2D3",
         },
         blu: {
