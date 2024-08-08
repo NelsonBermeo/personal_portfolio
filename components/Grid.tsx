@@ -52,7 +52,7 @@ const items = [
     title: "Stevens Computer Science Club",
     description: "Read about how SCSC changed my life and maybe get involved!",
     header: <Skeleton />,
-    headerImageUrl: "/Stevens.jpg",
+    headerImageUrl: "/csclub.png",
     link: "https://nelsonbermeo.blogspot.com/2024/08/i-love-stevens-computer-science-club.html",
   },
   {
