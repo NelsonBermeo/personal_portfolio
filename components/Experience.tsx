@@ -43,7 +43,7 @@ export default function Experience(){
                     
                 <h4 className="vertical-timeline-element-subtitle font-extrabold">Hoboken, NJ</h4>
                 <p className="font-light">
-                I am currently in my second year at Stevens Institute of Technology, pursuing a Bachelor's Degree in Computer Science. My academic journey has provided me with a great foundation in problem solving, algorithms, and software development. Alongside my studies, I have gained practical experience through various projects continually enhancing my skills and knowledge in the field. Throughout my academic journey, I've had the pleasure of making amazing friends and being an active member of the Computer Science Club. These experiences have enriched my learning and provided me with a supportive community.
+                I am currently in my second year at Stevens Institute of Technology, pursuing a Bachelors Degree in Computer Science. My academic journey has provided me with a great foundation in problem solving, algorithms, and software development. Alongside my studies, I have gained practical experience through various projects continually enhancing my skills and knowledge in the field. Throughout my academic journey, Ive had the pleasure of making amazing friends and being an active member of the Computer Science Club. These experiences have enriched my learning and provided me with a supportive community.
                 </p>
                 </a>
                 </FollowerPointerCard>

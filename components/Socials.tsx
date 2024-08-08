@@ -39,7 +39,7 @@ const SkeletonTwo = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      Here I have my professional advances all on one page. I post about opportunities, my experiences, books and events. Steven's Computer Science Club (SCSC) also has their own LinkedIn. Click again to be redirected.
+      Here I have my professional advances all on one page. I post about opportunities, my experiences, books and events. Stevens Computer Science Club (SCSC) also has their own LinkedIn. Click again to be redirected.
       </p>
     </div>
   );
