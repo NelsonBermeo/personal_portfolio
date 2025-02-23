@@ -24,21 +24,21 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         
         <Hero />
-        <AboutMe />
+        {/* <AboutMe />
         
         <Grid />
-        <Experience />
-        <RecentProjects />
+        <Experience /> */}
+        {/* <RecentProjects /> */}
         
         
-        <Skills />
+        {/* <Skills />
         <Courses />
         <ExpandableCardDemo />
-        <LayoutGridDemo />
+        <LayoutGridDemo /> */}
         {/* <TabsDemo /> */}
         {/* <Socials /> */}
-        <Clients /> 
-        <Footer />
+        {/* <Clients /> 
+        <Footer /> */}
       </div>
     </main>
   );

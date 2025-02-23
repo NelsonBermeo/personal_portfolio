@@ -91,40 +91,18 @@ export const navItems = [
       img: "/constructionImage.jpg",
       iconLists: ["", "", "", "", ""],
       link: "#",
-    },
-    {
-      id: 3,
-      title: "In Progress",
-      des: "In Progress",
-      img: "/constructionImage.jpg",
-      iconLists: ["", "", "", "", ""],
-      link: "#",
-    },
-    {
-      id: 4,
-      title: "In Progress",
-      des: "In Progress",
-      img: "/constructionImage.jpg",
-      iconLists: ["", "", "", "", ""],
-      link: "#",
-    },
+    }
   ];
   
   export const testimonials = [
     {
       quote:
-        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
-      name: "Unknown",
-      title: "Unknown",
-      imgURL: "/blankPhoto.jpg"
+        "I am thrilled to recommend Nelson for his outstanding dedication, exceptional performance and awesome personality. He is proactive, resourceful, and demonstrates a level of professionalism that is truly commendable. Whether managing review sessions, creating extra office hours, grading homework-exams-assignments, you can ask Nelson for help. He brings energy and expertise to everything he does. I am confident he will continue to excel in any endeavor he pursue.3",
+      name: "Dr. Zumrut Akcam-Kibis",
+      title: "Professor @ Stevens IT",
+      imgURL: "/akcam.png"
     },
-    {
-      quote:
-        "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
-      name: "Unknown",
-      title: "Unknown",
-      imgURL: "/blankPhoto.jpg"
-    },
+    
     {
       quote:
         "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
@@ -187,7 +165,7 @@ export const navItems = [
       title: "Freshman: Fall Semester",
       desc: "CS 115 - Introduction to Computer Science \n PEP 111 - Mechanics \n MA 120 & 121: Introduction to Calculus & Differential Calculus \n CS 101 - Research and Entrepreneurship in Computing \n CAL 105 - Knowledge, Nature, Culture \n Credit Amount: 15",
       className: "md:col-span-2",
-      thumbnail: "/fresh1.jpg",
+      thumbnail: "/freshman1.png",
       link: "https://nelsonbermeo.blogspot.com/2024/08/freshman-fall-semester.html",
     },
     {
@@ -195,23 +173,23 @@ export const navItems = [
       title: "Freshman: Spring Semester",
       desc: "CS 284: Data Structures \n CS 135 - Discrete Structures \n MA 125 & 126: Vectors and Matrices & Multivariable Calculus 1 \n BIO 182 - Biology and Biotechnology Laboratory \n BIO 181 - Biology and Biotechnology \n HSS 371: Computers & Society \n Winter Break: MA 121: Integral Calculus \n Credit Amount: 21",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/fresh2.jpg",
+      thumbnail: "/freshman2.png",
       link: "https://nelsonbermeo.blogspot.com/2024/08/freshman-spring-semester.html",
     },
     {
       id: 3,
       title: "Sophmore: Fall Semester",
-      desc: "CPE 440: Introduction to AI Engineering \n CS 382: Computer Architecture and Organization \n CS 385: Algorithms \n MA 232: Linear Algebra \n MA 222: Probability & Statistics \n HSSC 324: Comparative Ethnic Culture \n Credit Amount: 20",
+      desc: "CPE 440: Introduction to AI Engineering \n CS 382: Computer Architecture and Organization \n CS 385: Algorithms \n MA 232: Linear Algebra [W] \n MA 222: Probability & Statistics \n HSS 130: History of Science \n Credit Amount: 20",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/soph1.jpg",
+      thumbnail: "/sophmore1.png",
       link: "https://nelsonbermeo.blogspot.com/2024/08/sophmore-fall-semester.html",
     },
     {
       id: 4,
       title: "Sophmore: Spring Semester",
-      desc: "To Be Seen...",
+      desc: "MA 240: Proofs and Refutations \n MA 574 Foundational Math For Data Science \n CS 392: Systems Programming \n CS 496: Principles of Programming Langauges \n CS 546: Web Programming \n Credit Amount: 18",
       className: "md:col-span-2",
-      thumbnail: "/blankPhoto.jpg",
+      thumbnail: "/nelsonimage.jpg",
       link: "https://nelsonbermeo.blogspot.com/2024/08/sophmore-spring-semester.html",
     },
   ];

@@ -7,11 +7,13 @@ export const TextGenerateEffect = ({
   words,
   className,
 }: {
-  words: string;
+  words: React.ReactNode; // Change to ReactNode to allow JSX elements
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
+  // Assuming words is now an array of JSX elements or a string
+  const wordsArray = Array.isArray(words) ? words : (words as string).split(" ");
+
   useEffect(() => {
     animate(
       "span",

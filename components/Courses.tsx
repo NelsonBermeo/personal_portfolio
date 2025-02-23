@@ -179,69 +179,25 @@ const Courses = () => {
         <h1 className="heading mb-10 pt-20 mt-20">
         Building
         <span className="text-purple"> Expertise </span>
-        One Book at a Time
+        One Resource at a Time
       </h1>
       <HoverEffect items={projects} />
     </div>
   );
 }
 export const projects = [
-  {
-    title: "Invent Your Own Computer Games with Python",
-    description: "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-invent-your-own-computer.html",
-    image: "/pythongames.png"
-  },
-  {
-    title: "Django for Beginners",
+{
+    title: "Kaggle Mini-Courses",
     description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-django-for-beginners-by.html",
-    image: '/djangobook.png'
-  },{
-    title: "Python for Data Analysis",
-    description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-python-for-data-analysis-by.html",
-    image: '/dataanalysis.png'
-  },{
-    title: "Javascript Crash Course",
-    description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-javascript-crash-course-by.html",
-    image: "/javascriptbook.png"
-  },{
-    title: "Mission Python: Code a Space Adventure Game!",
-    description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-mission-python-code-space.html",
-    image: "pythonmission.png"
-  },{
-    title: "Dive Into Algorithms",
-    description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-dive-into-algorithms-by.html",
-    image: "/algorithms.png"
+      "Kaggle is an AI community with mini-courses, discussions, datasets and competitions. I have completed courses about ML, data visualization, pandas and more!",
+    link: "",
+    image: "/kagglelogo.png"
   },{
     title: "Python Crash Course",
     description:
-      "In Progress...",
+      "This was a great book to review python before my 1st Sophmore Year.",
     link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-python-crash-course-by-eric.html",
     image: "/pythoncrash.png"
-  },
-  {
-    title: "Cracking the Coding Interview",
-    description:
-      "In Progress...",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/book-review-cracking-coding-interview.html",
-    image: "/cracking.png"
-  },
-  {
-    title: "And Many More To Come...",
-    description:
-      "In Progress...",
-    link: "#",
-    image: "/morebooks.jpg"
   },
   
 ];

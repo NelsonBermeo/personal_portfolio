@@ -26,7 +26,7 @@ const Grid = () => {
             link={item.link}
             header={item.header}
             
-            className={i === 3 || i === 6 || i === 10 ? "col-span-2 p-3" : "p-3"}
+            className={i === 1 || i === 5 || i === 10 ? "col-span-2 p-3" : "p-3"}
           />
         ))}
         
@@ -42,25 +42,11 @@ const Skeleton = () => (
 
 const items = [
   {
-    title: "Project Ideas",
-    description: "A list of project ideas. Message me if you'd like to collaborate or if you have ideas!",
-    header: <Skeleton />,
-    headerImageUrl: "/coolab.png",
-    link: "https://github.com/NelsonBermeo/projectideas",
-  },
-  {
     title: "Stevens Computer Science Club",
     description: "Read about how SCSC changed my life and maybe get involved!",
     header: <Skeleton />,
     headerImageUrl: "/csclub.png",
     link: "https://nelsonbermeo.blogspot.com/2024/08/i-love-stevens-computer-science-club.html",
-  },
-  {
-    title: "Upcoming Events",
-    description: "A list of cool events! Join me and message me about any events you'll attend!",
-    header: <Skeleton />,
-    headerImageUrl: "/hackathon.jpg",
-    link: "https://github.com/NelsonBermeo/upcomingevents",
   },
   {
     title: "My Socials",
@@ -84,8 +70,16 @@ const items = [
     link: "https://nelsonbermeo.blogspot.com/2024/08/my-mentality.html",
   },
   {
-    title: "My Resume",
-    description: "I am currently searching for Spring 2025 Co-op opportunities and Summer 2025 opportunities. Internships or research would both be amazing experiences for me. Read my resume and continue looking through my website to learn more about my professional skills.",
+    title: "My Goals",
+    description: "Read about my goals!",
+    header: <Skeleton />,
+    headerImageUrl: "/goal.png",
+    link: "https://nelsonbermeo.blogspot.com/2024/08/my-goals.html",
+    
+  },
+  {
+    title: "My Resume & Transcript",
+    description: "I am currently searching for Summer 2025 Internship or Research opportunities in the fields of either humanoid/personal or general robotics, BMIs, Quantum Computing, drug discovery, or autonmous vehicles.",
     header: <Skeleton />,
     headerImageUrl: "/resumeimg.jpg",
     link: "https://drive.google.com/file/d/1h6ayI2RPfhWbIT3sslCYVPQmMjYVJZxY/view?usp=sharing",
@@ -115,18 +109,10 @@ const items = [
   },
   {
     title: "Borrow a Book From My Collection!",
-    description: "Visit a google doc containing every book I own and message me if you'd like to borrow one. Books range from computer science topics, biographies, non-fiction, and classics!",
+    description: "Visit a google doc containing books I own and message me if you'd like to borrow one!",
     header: <Skeleton />,
     headerImageUrl: "/books.jpg",
     link: "https://docs.google.com/document/d/15PkM7qbb-98mWexAoRedMO_jIti7LQkH4yelPL_eO7E/edit?usp=sharing",
-    
-  },
-  {
-    title: "My Goals",
-    description: "Read about my goals!",
-    header: <Skeleton />,
-    headerImageUrl: "/goal.png",
-    link: "https://nelsonbermeo.blogspot.com/2024/08/my-goals.html",
     
   },
 ];

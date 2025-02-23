@@ -55,7 +55,7 @@ export default function Experience(){
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#0b102e', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="2024 Sept - Present"
+                date="2024 Sept - 2024 December"
                 iconStyle={{ background: '#0b102e', color: '#fff' }}
                 icon={<GiTeacher />
                 }
@@ -64,13 +64,31 @@ export default function Experience(){
                     title = "Read Blog Post"
                     >
                     <a href = "https://nelsonbermeo.blogspot.com/2024/08/course-assistant-experience-cs-115-w-dr.html" target="_blank">
-                <h3 className="vertical-timeline-element-title font-extrabold">Course Assistant - Stevens Institute of Technology</h3>
+                <h3 className="vertical-timeline-element-title font-extrabold">Course Assistant CS 115 - Stevens Institute of Technology</h3>
                 <h4 className="vertical-timeline-element-subtitle font-extrabold">Hoboken, NJ</h4>
                 <p className="font-light">
                 As a Course Assistant for Professor Zumrut Akcam-Kibis in CS115: Introduction to Computer Science at Stevens Institute of Technology I have taken on multiple responsibilities to support both the professor and the students. My duties include grading assignments and exams, as well as holding office hours to provide additional help and guidance to students. This role has allowed me to deepen my understanding of fundamental computer science concepts while helping others succeed in their studies. 
                 </p>
                 </a>
                 </FollowerPointerCard>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: '#0b102e', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="2025 Janurary - Present"
+                iconStyle={{ background: '#0b102e', color: '#fff' }}
+                icon={<GiTeacher />
+                }
+            >
+                
+                <h3 className="vertical-timeline-element-title font-extrabold">Course Assistant CS 284 - Stevens Institute of Technology</h3>
+                <h4 className="vertical-timeline-element-subtitle font-extrabold">Hoboken, NJ</h4>
+                <p className="font-light">
+                As a Course Assistant for Professor Dmitry Paramonov CS284: Data Structures at Stevens Institute of Technology I held office hours, labs, review sessions, and graded labs and homeworks. This experience was awesome I helped students improved my own skill and my presentation skills.
+                </p>
+                
             </VerticalTimelineElement>
 
             {/* <VerticalTimelineElement
